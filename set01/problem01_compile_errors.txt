@@ -1,0 +1,4 @@
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set01\problem01.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set01\problem01.c:8:5: error: expected ';' before 'return'
+     return 0;
+     ^~~~~~
