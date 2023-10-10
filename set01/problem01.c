@@ -4,6 +4,6 @@
 
 int main()
 {
-    printf("Gaurav Negi")
+    printf("Gaurav Negi");
     return 0;
 }

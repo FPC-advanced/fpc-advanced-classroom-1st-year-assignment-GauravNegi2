@@ -16,3 +16,12 @@ Breakpoint 1, main () at c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanc
 7	    printf("Gaurav Negi");
 Continuing.
 [Inferior 1 (process 14168) exited normally]
+Breakpoint 1 at 0x40146e: file c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set01\problem01.c, line 7.
+Starting program: c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set01\problem01.exe 
+[New Thread 27404.0x6d0c]
+[New Thread 27404.0x622c]
+
+Breakpoint 1, main () at c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set01\problem01.c:7
+7	    printf("Gaurav Negi");
+Continuing.
+[Inferior 1 (process 27404) exited normally]
