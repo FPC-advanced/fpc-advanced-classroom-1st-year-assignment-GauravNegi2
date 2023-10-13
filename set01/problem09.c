@@ -23,7 +23,7 @@ float input()
 float square_root(float n)
 {
     float x = n / 2;
-    float epsilon = 0.000001;
+    float epsilon = 1;
     while ((x * x - n) > epsilon || (n - x * x) > epsilon)
     {
         x = 0.5 * (x + n / x);
@@ -33,5 +33,5 @@ float square_root(float n)
 
 void output(float n, float sqrroot)
 {
-    printf("The square root of %f is %f\n", n, sqrroot);
+    printf("The square root of %.1f is %.1f\n", n, sqrroot);
 }
