@@ -8,7 +8,7 @@ int main()
 {
     int n,result;
     n=input_number();
-    is_composite(n);
+    result=is_composite(n);
     output(n,result);
     return 0;
 }
@@ -23,13 +23,13 @@ int input_number()
 
 int is_composite(int n)
 {
-    if(n<=1)
+   if (n <= 1)
     {
         return 0;
     }
-    for(int i=2; i=n;i++)
+    for (int i = 2; i <= n; i++)
     {
-        if(n% i==0)
+        if (n % i == 0 )
         {
             return 1;
         }
@@ -38,12 +38,12 @@ int is_composite(int n)
 
 void output(int n, int result)
 {
-    if(result==0)
+    if (result == 0)
     {
-        printf("%d is a composite number",result);
+        printf("%d is not a composite number\n", n);
     }
-    else
+    else if (result == 1)
     {
-        printf("its is not a composite number");
+        printf("%d is a composite number\n", n);
     }
 }
