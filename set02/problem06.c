@@ -5,12 +5,13 @@ void str_reverse(char *str, char *rev_str);
 void output(char *a, char *reverse_a);
 
 int main()
-
-char a[100], reverse_a[100];
+{
+    char a[100], reverse_a[100];
     input_string(a);
     str_reverse(a, reverse_a);
     output(a, reverse_a);
-    return 0;}
+    return 0;
+}
 
 
 void input_string(char *a)
