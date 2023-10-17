@@ -43,3 +43,8 @@ PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> "c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem04.exe"
 c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem04.exe
+PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> Start-Transcript -Path "c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem04_session.txt"
+**********************
+Windows PowerShell transcript end
+End time: 20231017202554
+**********************
