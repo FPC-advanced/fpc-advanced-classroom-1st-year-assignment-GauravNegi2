@@ -16,7 +16,7 @@ int main()
 
 void input_string(char *a)
 {
-    printf("Enter string: ");
+    printf("enter the string: ");
     scanf("%s", a);
 }
 
