@@ -7,7 +7,8 @@ void output(int a, int b, int gcd);
 int main()
 {
     int a,b,gcd;
-    a=input()
+    a=input();
+    b=input
    
 }
 
