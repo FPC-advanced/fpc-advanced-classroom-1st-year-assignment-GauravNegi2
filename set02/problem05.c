@@ -32,4 +32,6 @@ int find_gcd(int a, int b)
 
 
 void output(int a, int b, int gcd)
-{}
+{
+    printf("Gcd is %d\n", a, b, gcd);
+}
