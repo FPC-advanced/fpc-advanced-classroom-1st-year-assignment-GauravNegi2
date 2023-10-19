@@ -21,3 +21,14 @@ PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-
 
 PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem04.exe
 
+PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> git add .
+
+PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> git commit -m "committed 10/19/2023, 4:31:25 PM"
+
+PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> git push
+
+PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231019163156
+**********************
