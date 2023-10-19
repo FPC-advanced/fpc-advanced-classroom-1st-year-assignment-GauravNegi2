@@ -38,21 +38,16 @@ int sum_composite_numbers(int n, int a[n])
     int sum = 0;
     for(int i = 0; i < n; i++) 
     {
-        int is_composite = 0; 
         if(a[i] > 3) 
         { 
             for(int j = 2; j <= a[i] / 2; j++) 
             {
                 if(a[i] % j == 0) 
                 {
-                    is_composite = 1;
+                    sum += a[i];
                     break;
                 }
             }
-        }
-        if(is_composite) 
-        {
-            sum += a[i];
         }
     }
     return sum;

@@ -26,7 +26,7 @@ void str_reverse(char *str, char *rev_str)
     for(i = 0; str[i] != '\0'; i++);
     for(int j = 0; j < i; j++) 
     {
-        rev_str[j] = str[i - j - 1];
+        rev_str[j] = str[i - 1 - j];
     }
     rev_str[i] = '\0';
 }
