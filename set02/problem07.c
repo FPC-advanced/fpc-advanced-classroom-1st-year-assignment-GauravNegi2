@@ -22,8 +22,9 @@ Triangle input_triangle()
     Triangle t;
     printf("Enter the length: ");
     scanf("%f",&t.base);
-    printf("Enter the breadth: ");
+    printf("Enter the height: ");
     scanf("%f",&t.altitude);
+    return t;
 }
 
 void find_area(Triangle *t)
