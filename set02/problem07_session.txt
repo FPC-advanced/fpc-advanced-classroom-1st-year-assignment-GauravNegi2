@@ -1,6 +1,6 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20231026094625
+Start time: 20231026094716
 Username: DESKTOP-A3IRVTV\grimd
 RunAs User: DESKTOP-A3IRVTV\grimd
 Configuration Name: 
@@ -30,28 +30,4 @@ c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
 before '}' token
  }
  ^
-    + FullyQualifiedErrorId : NativeCommandError
 
-c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem07.c:32:1: error: expected ';'
-before '}' token
- }
- ^
-PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> gcc -g "c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem07.c" -o "c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem07.exe" 2>&1
-gcc : c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem07.c: In function
-'find_area':
-At line:1 char:1
-+ gcc -g "c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-cla ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (c:\Users\grimd\...on 'find_area'::String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
-
-c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02\problem07.c:32:1: error: expected ';'
-before '}' token
- }
- ^
-
-PS C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2> Stop-Transcript
-**********************
-Windows PowerShell transcript end
-End time: 20231026094658
-**********************
