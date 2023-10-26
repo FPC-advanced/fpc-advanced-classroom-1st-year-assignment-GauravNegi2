@@ -22,7 +22,7 @@ Triangle input_triangle()
     Triangle t;
     printf("Enter the length: ");
     scanf("%f",&t.base);
-    printf("Enter the length: ");
+    printf("Enter the breadth: ");
     scanf("%f",&t.altitude);
 }
 
