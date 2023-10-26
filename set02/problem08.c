@@ -4,8 +4,8 @@ typedef struct _triangle
 {
 	float base, altitude, area;
 } Triangle;
-int input_n();
 
+int input_n();
 Triangle input_triangle();
 void input_n_triangles(int n, Triangle t[n]);
 void find_area(Triangle *t);
