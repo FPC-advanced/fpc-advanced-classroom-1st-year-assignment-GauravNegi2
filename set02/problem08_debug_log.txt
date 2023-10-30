@@ -1,0 +1,83 @@
+8	int input_n();
+9	Triangle input_triangle();
+10	void input_n_triangles(int n, Triangle t[n]);
+11	void find_area(Triangle *t);
+12	void find_n_areas(int n, Triangle t[n]);
+13	Triangle find_smallest_triangle(int n, Triangle t[n]);
+14	void output(int n, Triangle t[n], Triangle smallest);
+15	
+16	int main()
+17	{
+18	    int n = input_n();
+19	    Triangle triangles[n];
+20	    input_n_triangles(n, triangles);
+21	    find_n_areas(n, triangles);
+22	    Triangle smallest = find_smallest_triangle(n, triangles);
+23	    output(n, triangles, smallest);
+24	    return 0;
+25	}
+26	
+27	int input_n()
+28	{
+29	    int n;
+30	    printf("Enter the number of triangles: ");
+31	    scanf("%d", &n);
+32	    return n;
+33	}
+34	
+35	Triangle input_triangle()
+36	{
+37	    Triangle t;
+38	    printf("Enter base length: ");
+39	    scanf("%f", &t.base);
+40	    printf("Enter altitude height : ");
+41	    scanf("%f", &t.altitude);
+42	    return t;
+43	}
+44	
+45	void input_n_triangles(int n, Triangle t[n])
+46	{
+47	    
+48	    for (int i = 0; i < n; i++) 
+49	    {
+50	        printf("Enter details for triangle %d:\n", i + 1);
+51	        t[i] = input_triangle();
+52	    }
+53	
+54	}
+55	
+56	void find_area(Triangle *t)
+57	{
+58	    t->area = 0.5 * t->base * t->altitude;
+59	}
+60	
+61	void find_n_areas(int n, Triangle t[n])
+62	{
+63	    for (int i = 0; i < n; i++) 
+64	    {
+65	        find_area(&t[i]);
+66	    }
+67	}
+68	
+69	Triangle find_smallest_triangle(int n, Triangle t[n])
+70	{
+71	    Triangle smallest = t[0];
+72	    for (int i = 1; i < n; i++) 
+73	    {
+74	        if (t[i].area < smallest.area) 
+75	        {
+76	            smallest = t[i];
+77	        }
+78	    }
+79	    return smallest;
+80	}
+81	
+82	
+83	void output(int n, Triangle t[n], Triangle smallest)
+84	{
+85	    for (int i = 0; i < n; i++) 
+86	    {
+87	        printf("%.f %.f\n", t[i].base, t[i].altitude);
+88	    }
+89	    printf("The triangle having base %.f, height %.f, and area %.f", smallest.base, smallest.altitude, smallest.area);
+90	}
