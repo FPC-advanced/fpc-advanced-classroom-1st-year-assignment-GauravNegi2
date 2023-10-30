@@ -1,1 +1,44 @@
 The program is not being run.
+warning: Source file is more recent than executable.
+1	#include <stdio.h>3
+2	
+3	int input();
+4	int find_gcd(int a, int b);
+5	void output(int a, int b, int gcd);
+6	
+7	int main()
+8	{
+9	    int a,b,gcd;
+10	    a=input();
+11	    b=input();
+12	    gcd=find_gcd(a,b);
+13	    output(a,b,gcd);
+14	    return 0;
+15	}
+16	
+17	int input()
+18	{
+19	    int n;
+20	    printf("Enter the value: ");
+21	    scanf("%d", &n);
+22	    return n;
+23	}
+24	
+25	int find_gcd(int a, int b)
+26	{
+27	      int gcd;
+28	    for(int i = 1; i <= a && i <= b; i++) 
+29	    {
+30	        if(a % i == 0 && b % i == 0)
+31	        {
+32	            gcd = i;
+33	        }
+34	    }
+35	    return gcd;
+36	}
+37	
+38	
+39	void output(int a, int b, int gcd)
+40	{
+41	    printf("Gcd is %d", gcd);
+42	}
