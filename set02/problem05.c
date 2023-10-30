@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>3
 
 int input();
 int find_gcd(int a, int b);
