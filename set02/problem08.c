@@ -84,7 +84,7 @@ void output(int n, Triangle t[n], Triangle smallest)
 {
     for (int i = 0; i < n; i++) 
     {
-        printf("%.f %.f %.f\n", t[i].base, t[i].altitude, t[i].area);
+        printf("%.f %.f\n", t[i].base, t[i].altitude);
     }
     printf("The triangle having base %.f, height %.f, and area %.f", smallest.base, smallest.altitude, smallest.area);
 }
