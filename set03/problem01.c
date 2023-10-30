@@ -26,7 +26,7 @@ float find_distance(float x1, float y1, float x2, float y2)
 {
     float x_diff=x2-x1;
     float y_diff=y2-y1;
-    return x_diff*x_diff+y_diff*y_diff;
+    return x_diff+y_diff;
 }
 
 void output(float x1, float y1, float x2, float y2, float distance)
