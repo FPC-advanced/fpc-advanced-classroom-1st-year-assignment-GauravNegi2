@@ -43,3 +43,19 @@ warning: Source file is more recent than executable.
 41	    printf("Gcd is %d", gcd);
 42	}
 No symbol "a" in current context.
+Starting program: C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02/./problem05.exe 
+[New Thread 16824.0xc34]
+[New Thread 16824.0x18a4]
+[Inferior 1 (process 16824) exited normally]
+The program is not being run.
+Starting program: C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02/./problem05.exe 
+[New Thread 1784.0x3de8]
+[New Thread 1784.0x3b6c]
+[Inferior 1 (process 1784) exited normally]
+The program is not being run.
+No stack.
+Starting program: C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02/./problem05.exe 
+[New Thread 18108.0x4060]
+[New Thread 18108.0x39c]
+[Inferior 1 (process 18108) exited normally]
+The program is not being run.
