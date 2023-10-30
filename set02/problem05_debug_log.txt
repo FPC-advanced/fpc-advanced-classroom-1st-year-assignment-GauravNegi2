@@ -42,3 +42,4 @@ warning: Source file is more recent than executable.
 40	{
 41	    printf("Gcd is %d", gcd);
 42	}
+No symbol "a" in current context.
