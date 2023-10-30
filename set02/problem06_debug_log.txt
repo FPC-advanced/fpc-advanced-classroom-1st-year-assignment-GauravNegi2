@@ -1,0 +1,42 @@
+1	#include <stdio.h>
+2	
+3	void input_string(char *a);
+4	void str_reverse(char *str, char *rev_str);
+5	void output(char *a, char *reverse_a);
+6	
+7	int main()
+8	{
+9	    char a[100], reverse_a[100];
+10	    input_string(a);
+11	    str_reverse(a, reverse_a);
+12	    output(a, reverse_a);
+13	    return 0;
+14	}
+15	
+16	
+17	void input_string(char *a)
+18	{
+19	    printf("enter the string: ");
+20	    scanf("%s", a);
+21	}
+22	
+23	void str_reverse(char *str, char *rev_str)
+24	{
+25	    int i;
+26	    for(i = 0; str[i] != '\0'; i++);
+27	    for(int j = 0; j < i; j++) 
+28	    {
+29	        rev_str[j] = str[i - 1 - j];
+30	    }
+31	    rev_str[i] = '\0';
+32	}
+33	
+34	void output(char *a, char *reverse_a)
+35	{
+36	    printf("%s", reverse_a);
+37	}
+Starting program: C:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set02/./problem06.exe 
+[New Thread 14996.0x2a98]
+[New Thread 14996.0x1a20]
+[Inferior 1 (process 14996) exited normally]
+The program is not being run.
