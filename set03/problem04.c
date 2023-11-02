@@ -28,10 +28,11 @@ int find_fibo(int n)
     }
 
     int fibo[n+1];
-    fibo[0]=0;
-    fibo[1]=1;
+    fibo[1]=0;
+    fibo[2]=1;
+    fibo[3]=1;
 
-    for(int i=2;i<=n;i++)
+    for(int i=4;i<=n;i++)
     {
         fibo[i]=fibo[i-1]+fibo[i-2];
     }
