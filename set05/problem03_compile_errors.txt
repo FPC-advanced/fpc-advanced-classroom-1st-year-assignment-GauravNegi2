@@ -1,0 +1,13 @@
+Compilation started at 11/16/2023, 10:39:40 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c: In function 'find_weight':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c:32:21: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+     return 3.1415 * pow(c.radius, 3) * sqrt(c.height * c.length);
+                     ^~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c:32:21: warning: incompatible implicit declaration of built-in function 'pow'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c:32:21: note: include '<math.h>' or provide a declaration of 'pow'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c:32:40: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     return 3.1415 * pow(c.radius, 3) * sqrt(c.height * c.length);
+                                        ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c:32:40: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem03.c:32:40: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 10:39:40 AM

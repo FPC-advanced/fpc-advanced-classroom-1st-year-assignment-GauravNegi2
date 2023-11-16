@@ -1,0 +1,240 @@
+Compilation started at 11/14/2023, 7:53:03 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract1 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:11:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract2 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract3 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:5: warning: implicit declaration of function 'find_and_output_smallest' [-Wimplicit-function-declaration]
+     find_and_output_smallest(fract1, fract2, fract3);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: At top level:
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:18:10: error: conflicting types for 'input'
+ Fraction input()
+          ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: note: previous implicit declaration of 'input' was here
+     fract1 = input();
+              ^~~~~
+Compilation finished at 11/14/2023, 7:53:03 PM
+Compilation started at 11/14/2023, 8:01:49 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract1 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:11:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract2 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract3 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: warning: implicit declaration of function 'find_smallest' [-Wimplicit-function-declaration]
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: error: invalid initializer
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:5: warning: implicit declaration of function 'output_result' [-Wimplicit-function-declaration]
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: At top level:
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:18:10: error: conflicting types for 'input'
+ Fraction input()
+          ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: note: previous implicit declaration of 'input' was here
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:25:10: error: conflicting types for 'find_smallest'
+ Fraction find_smallest(Fraction f1, Fraction f2, Fraction f3)
+          ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: note: previous implicit declaration of 'find_smallest' was here
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:33:6: warning: conflicting types for 'output_result'
+ void output_result(Fraction f1, Fraction f2, Fraction f3, Fraction smallest)
+      ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:5: note: previous implicit declaration of 'output_result' was here
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/14/2023, 8:01:50 PM
+Compilation started at 11/14/2023, 8:01:58 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract1 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:11:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract2 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract3 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: warning: implicit declaration of function 'find_smallest' [-Wimplicit-function-declaration]
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: error: invalid initializer
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:5: warning: implicit declaration of function 'output_result' [-Wimplicit-function-declaration]
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: At top level:
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:18:10: error: conflicting types for 'input'
+ Fraction input()
+          ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: note: previous implicit declaration of 'input' was here
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:25:10: error: conflicting types for 'find_smallest'
+ Fraction find_smallest(Fraction f1, Fraction f2, Fraction f3)
+          ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: note: previous implicit declaration of 'find_smallest' was here
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:33:6: warning: conflicting types for 'output_result'
+ void output_result(Fraction f1, Fraction f2, Fraction f3, Fraction smallest)
+      ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:5: note: previous implicit declaration of 'output_result' was here
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/14/2023, 8:01:58 PM
+Compilation started at 11/14/2023, 8:03:02 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:9:14: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:9:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract1 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract2 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:11:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract3 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:25: warning: implicit declaration of function 'find_smallest' [-Wimplicit-function-declaration]
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:25: error: invalid initializer
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:5: warning: implicit declaration of function 'output_result' [-Wimplicit-function-declaration]
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: At top level:
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:17:10: error: conflicting types for 'input'
+ Fraction input() {
+          ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:9:14: note: previous implicit declaration of 'input' was here
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:23:10: error: conflicting types for 'find_smallest'
+ Fraction find_smallest(Fraction f1, Fraction f2, Fraction f3) {
+          ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:25: note: previous implicit declaration of 'find_smallest' was here
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:30:6: warning: conflicting types for 'output_result'
+ void output_result(Fraction f1, Fraction f2, Fraction f3, Fraction smallest) {
+      ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:5: note: previous implicit declaration of 'output_result' was here
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/14/2023, 8:03:02 PM
+Compilation started at 11/14/2023, 8:03:15 PM
+Compilation finished at 11/14/2023, 8:03:15 PM
+Compilation started at 11/14/2023, 8:03:21 PM
+Compilation finished at 11/14/2023, 8:03:21 PM
+Compilation started at 11/14/2023, 8:03:36 PM
+Compilation finished at 11/14/2023, 8:03:36 PM
+Compilation started at 11/14/2023, 8:04:20 PM
+Compilation finished at 11/14/2023, 8:04:20 PM
+Compilation started at 11/14/2023, 8:05:08 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract1 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:11:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract2 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract3 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: warning: implicit declaration of function 'find_smallest' [-Wimplicit-function-declaration]
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: error: invalid initializer
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:5: warning: implicit declaration of function 'output_result' [-Wimplicit-function-declaration]
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: At top level:
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:18:10: error: conflicting types for 'input'
+ Fraction input()
+          ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: note: previous implicit declaration of 'input' was here
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:25:10: error: conflicting types for 'find_smallest'
+ Fraction find_smallest(Fraction f1, Fraction f2, Fraction f3)
+          ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:13:25: note: previous implicit declaration of 'find_smallest' was here
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:35:6: warning: conflicting types for 'output_result'
+ void output_result(Fraction f1, Fraction f2, Fraction f3, Fraction smallest)
+      ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:5: note: previous implicit declaration of 'output_result' was here
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/14/2023, 8:05:08 PM
+Compilation started at 11/14/2023, 8:07:11 PM
+Compilation finished at 11/14/2023, 8:07:11 PM
+Compilation started at 11/14/2023, 8:09:36 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: warning: implicit declaration of function 'input' [-Wimplicit-function-declaration]
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract1 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:11:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract2 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:12:12: error: incompatible types when assigning to type 'Fraction {aka struct <anonymous>}' from type 'int'
+     fract3 = input();
+            ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:25: warning: implicit declaration of function 'find_smallest' [-Wimplicit-function-declaration]
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:25: error: invalid initializer
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:15:5: warning: implicit declaration of function 'output_result' [-Wimplicit-function-declaration]
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: At top level:
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:20:10: error: conflicting types for 'input'
+ Fraction input() {
+          ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:10:14: note: previous implicit declaration of 'input' was here
+     fract1 = input();
+              ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:26:10: error: conflicting types for 'find_smallest'
+ Fraction find_smallest(Fraction f1, Fraction f2, Fraction f3) {
+          ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:14:25: note: previous implicit declaration of 'find_smallest' was here
+     Fraction smallest = find_smallest(fract1, fract2, fract3);
+                         ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:35:6: warning: conflicting types for 'output_result'
+ void output_result(Fraction f1, Fraction f2, Fraction f3, Fraction smallest) {
+      ^~~~~~~~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:15:5: note: previous implicit declaration of 'output_result' was here
+     output_result(fract1, fract2, fract3, smallest);
+     ^~~~~~~~~~~~~
+Compilation finished at 11/14/2023, 8:09:36 PM

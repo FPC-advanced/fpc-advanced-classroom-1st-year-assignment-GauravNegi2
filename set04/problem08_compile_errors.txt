@@ -1,0 +1,17 @@
+Compilation started at 11/14/2023, 10:15:54 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem08.c: In function 'output':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem08.c:81:14: error: 'sum' redeclared as different kind of symbol
+     Fraction sum = f[0];
+              ^~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem08.c:79:44: note: previous definition of 'sum' was here
+ void output(int n, Fraction f[n], Fraction sum)
+                                            ^~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem08.c:86:12: warning: 'return' with a value, in function returning void
+     return sum;
+            ^~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem08.c:79:6: note: declared here
+ void output(int n, Fraction f[n], Fraction sum)
+      ^~~~~~
+Compilation finished at 11/14/2023, 10:15:54 PM
+Compilation started at 11/14/2023, 10:18:42 PM
+Compilation finished at 11/14/2023, 10:18:42 PM

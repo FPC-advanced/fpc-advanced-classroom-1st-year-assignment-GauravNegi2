@@ -1,0 +1,48 @@
+Compilation started at 11/16/2023, 9:38:05 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c: In function 'dist':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     *res = sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
+            ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 9:38:05 AM
+Compilation started at 11/16/2023, 9:39:57 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c: In function 'dist':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     *res = sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
+            ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 9:39:57 AM
+Compilation started at 11/16/2023, 9:40:13 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c: In function 'dist':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     *res = sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
+            ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 9:40:14 AM
+Compilation started at 11/16/2023, 9:43:05 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c: In function 'dist':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     *res = sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
+            ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 9:43:05 AM
+Compilation started at 11/16/2023, 9:43:24 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c: In function 'dist':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     *res = sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
+            ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 9:43:24 AM
+Compilation started at 11/16/2023, 10:29:10 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c: In function 'dist':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: implicit declaration of function 'sqrt' [-Wimplicit-function-declaration]
+     *res = sqrt((b.x - a.x) * (b.x - a.x) + (b.y - a.y) * (b.y - a.y));
+            ^~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: warning: incompatible implicit declaration of built-in function 'sqrt'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem01.c:40:12: note: include '<math.h>' or provide a declaration of 'sqrt'
+Compilation finished at 11/16/2023, 10:29:10 AM
