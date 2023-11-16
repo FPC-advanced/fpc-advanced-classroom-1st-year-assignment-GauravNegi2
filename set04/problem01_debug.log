@@ -1,0 +1,22 @@
++b 10
+Breakpoint 1 at 0x401471: file c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem01.c, line 10.
++r
+Starting program: c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04/./problem01.exe 
+[New Thread 15316.0x28e4]
+[New Thread 15316.0x3894]
+
+Breakpoint 1, main () at c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem01.c:10
+warning: Source file is more recent than executable.
+10	    input(&num1, &den1, &num2, &den2);
++n
+11	    add(num1, den1, num2, den2, &res_num, &res_den);
++n
+12	    output(num1, den1, num2, den2, res_num, res_den);
++n
+13	    return 0;
++q
+A debugging session is active.
+
+	Inferior 1 [process 15316] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5
