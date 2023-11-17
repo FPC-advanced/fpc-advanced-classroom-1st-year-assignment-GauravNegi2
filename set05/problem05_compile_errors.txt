@@ -1,0 +1,46 @@
+Compilation started at 11/17/2023, 9:46:20 AM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.c:9:13: error: too few arguments to function 'input'
+     int x = input();
+             ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.c:3:5: note: declared here
+ int input(int x);
+     ^~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.c: In function 'input':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.c:17:9: error: 'x' redeclared as different kind of symbol
+     int x;
+         ^
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.c:15:15: note: previous definition of 'x' was here
+ int input(int x)
+               ^
+Compilation finished at 11/17/2023, 9:46:21 AM
+Compilation started at 11/17/2023, 9:47:00 AM
+Compilation finished at 11/17/2023, 9:47:00 AM
+Compilation started at 11/17/2023, 9:49:03 AM
+Compilation finished at 11/17/2023, 9:49:03 AM
+Compilation started at 11/17/2023, 9:51:49 AM
+Compilation finished at 11/17/2023, 9:51:49 AM
+Compilation started at 11/17/2023, 9:55:50 AM
+Compilation finished at 11/17/2023, 9:55:50 AM
+Compilation started at 11/17/2023, 9:56:03 AM
+Compilation finished at 11/17/2023, 9:56:03 AM
+Compilation started at 11/17/2023, 9:57:03 AM
+Compilation finished at 11/17/2023, 9:57:03 AM
+Compilation started at 11/17/2023, 9:57:18 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/17/2023, 9:57:19 AM
+Compilation started at 11/17/2023, 9:57:21 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/17/2023, 9:57:21 AM
+Compilation started at 11/17/2023, 9:57:23 AM
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set05\problem05.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/17/2023, 9:57:23 AM
+Compilation started at 11/17/2023, 9:57:55 AM
+Compilation finished at 11/17/2023, 9:57:55 AM
+Compilation started at 11/17/2023, 9:58:02 AM
+Compilation finished at 11/17/2023, 9:58:03 AM
+Compilation started at 11/17/2023, 9:58:39 AM
+Compilation finished at 11/17/2023, 9:58:39 AM
