@@ -24,11 +24,11 @@ float borga_X(int x)
 {
     float result = 1.0;
     float term = 1.0;
-    int n = 1;
+    int n = 1.0;
 
     while (term >= 0.000001) 
     {
-        term = (float)(x) / ((2 * n) * (2 * n + 1));
+        term *= (float)(x) / ((2 * n) * (2 * n + 1));
         result += term;
         n++;
     }
@@ -38,5 +38,5 @@ float borga_X(int x)
 
 void output(int x, float result)
 {
-    printf("borga(%d) = %.5f\n", x, result);
+    printf("borga(%d) = %f\n", x, result);
 }

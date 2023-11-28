@@ -1,0 +1,22 @@
+Compilation started at 11/28/2023, 7:32:38 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem05.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem05.c:14:5: warning: implicit declaration of function 'eratosthenes_sieve' [-Wimplicit-function-declaration]
+     eratosthenes_sieve(n, primes);
+     ^~~~~~~~~~~~~~~~~~
+C:\Users\grimd\AppData\Local\Temp\cc6D7fS1.o: In function `main':
+c:/Users/grimd/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-GauravNegi2/set03/problem05.c:14: undefined reference to `eratosthenes_sieve'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/28/2023, 7:32:38 PM
+Compilation started at 11/28/2023, 7:33:22 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem05.c: In function 'main':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem05.c:14:5: warning: implicit declaration of function 'eratosthenes_sieve' [-Wimplicit-function-declaration]
+     eratosthenes_sieve(n, primes);
+     ^~~~~~~~~~~~~~~~~~
+C:\Users\grimd\AppData\Local\Temp\ccsLZn8u.o: In function `main':
+c:/Users/grimd/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-GauravNegi2/set03/problem05.c:14: undefined reference to `eratosthenes_sieve'
+collect2.exe: error: ld returned 1 exit status
+Compilation finished at 11/28/2023, 7:33:22 PM
+Compilation started at 11/28/2023, 7:36:13 PM
+Compilation finished at 11/28/2023, 7:36:13 PM
+Compilation started at 11/28/2023, 7:37:36 PM
+Compilation finished at 11/28/2023, 7:37:36 PM

@@ -1,47 +1,44 @@
 #include <stdio.h>
+#include <string.h>
 
 void input_string(char *a);
-int count_words(char *string);
-void output(char *string, int no_words);
+int count_words(char *string, char *originalString);
+void output(char *originalString, int no_words);
 
-int main()
-{
+int main() {
     char inputString[100];
     input_string(inputString);
-    int wordCount = count_words(inputString);
-    output(inputString, wordCount);
+    
+    char originalString[100];
+    strcpy(originalString, inputString);
+
+    int wordCount = count_words(inputString, originalString);
+    output(originalString, wordCount);
+
     return 0;
 }
 
-void input_string(char *a)
+void input_string(char *a) 
 {
     printf("Enter a string: ");
-    scanf("%99[^\n]", a);
+    scanf(" %99[^\n]", a);
 }
 
-int count_words(char *string)
+int count_words(char *string, char *originalString) 
 {
     int count = 0;
-    int in_word = 0;
-    for (int i = 0; string[i] != '\0'; i++) 
-    {
-        if (string[i] == ' ' || string[i] == '\t') 
-        {
-            in_word = 0; 
-        } 
-        else 
-        {
-            if (in_word == 0) 
-            {
-                count++;
-            }
-            in_word = 1;
-        }
+    char *token = strtok(string, " ");
+
+    while (token != NULL) {
+        count++;
+        token = strtok(NULL, " ");
     }
+    strcpy(string, originalString);
+
     return count;
 }
 
-void output(char *string, int no_words)
+void output(char *originalString, int no_words) 
 {
-    printf("The number of words in \"%s\" is %d\n", string, no_words);
+    printf("The number of words in \"%s\" is %d\n", originalString, no_words);
 }
