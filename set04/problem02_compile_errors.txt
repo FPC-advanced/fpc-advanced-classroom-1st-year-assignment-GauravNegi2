@@ -238,3 +238,13 @@ c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-ass
      output_result(fract1, fract2, fract3, smallest);
      ^~~~~~~~~~~~~
 Compilation finished at 11/14/2023, 8:09:36 PM
+Compilation started at 12/4/2023, 8:33:58 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c: In function 'find_smallest':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set04\problem02.c:23:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation finished at 12/4/2023, 8:33:58 PM
+Compilation started at 12/4/2023, 8:35:36 PM
+Compilation finished at 12/4/2023, 8:35:36 PM
+Compilation started at 12/4/2023, 8:35:50 PM
+Compilation finished at 12/4/2023, 8:35:50 PM

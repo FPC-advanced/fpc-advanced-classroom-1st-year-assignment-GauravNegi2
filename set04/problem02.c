@@ -13,12 +13,24 @@ Fraction input()
 
 Fraction find_smallest(Fraction f1, Fraction f2, Fraction f3)
 {
-    float x1 = (float)f1.num / f1.den;
-    float x2 = (float)f2.num / f2.den;
-    float x3 = (float)f3.num / f3.den;
-    Fraction smallest;
-    smallest = (x1 < x2) ? ((x1 < x3) ? f1 : f3) : ((x2 < x3) ? f2 : f3);
-    return smallest;
+    int x1 = f1.num * f2.den * f3.den;
+    int x2 = f2.num * f3.den * f1.den;
+    int x3 = f3.num * f1.den * f2.den;
+
+    if (x1 <= x2 && x1 <= x3)
+    {
+        return f1;
+    }
+
+    else if (x2 <= x1 && x2 <= x3) 
+    {
+        return f2;
+    } 
+    
+    else 
+    {
+        return f3;
+    }
 }
 
 void output_result(Fraction f1, Fraction f2, Fraction f3, Fraction smallest) 
