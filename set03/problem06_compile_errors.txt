@@ -4,3 +4,56 @@ Compilation started at 11/9/2023, 10:09:53 AM
 Compilation finished at 11/9/2023, 10:09:53 AM
 Compilation started at 11/9/2023, 10:13:03 AM
 Compilation finished at 11/9/2023, 10:13:03 AM
+Compilation started at 12/4/2023, 8:47:14 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c: In function 'sub_str_index':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int j = strlen(string);
+             ^~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: note: include '<string.h>' or provide a declaration of 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:32:13: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+         if (strncmp(string + i, substring, k) == 0)
+             ^~~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:39:1: error: expected ';' before '}' token
+ }
+ ^
+Compilation finished at 12/4/2023, 8:47:14 PM
+Compilation started at 12/4/2023, 8:47:52 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c: In function 'sub_str_index':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int j = strlen(string);
+             ^~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: note: include '<string.h>' or provide a declaration of 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:32:13: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+         if (strncmp(string + i, substring, k) == 0)
+             ^~~~~~~
+Compilation finished at 12/4/2023, 8:47:52 PM
+Compilation started at 12/4/2023, 8:48:04 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c: In function 'sub_str_index':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int j = strlen(string);
+             ^~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: note: include '<string.h>' or provide a declaration of 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:32:13: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+         if (strncmp(string + i, substring, k) == 0)
+             ^~~~~~~
+Compilation finished at 12/4/2023, 8:48:04 PM
+Compilation started at 12/4/2023, 8:49:21 PM
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c: In function 'sub_str_index':
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+     int j = strlen(string);
+             ^~~~~~
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: warning: incompatible implicit declaration of built-in function 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:27:13: note: include '<string.h>' or provide a declaration of 'strlen'
+c:\Users\grimd\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-GauravNegi2\set03\problem06.c:32:13: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+         if (strncmp(string + i, substring, k) == 0)
+             ^~~~~~~
+Compilation finished at 12/4/2023, 8:49:21 PM
+Compilation started at 12/4/2023, 8:50:32 PM
+Compilation finished at 12/4/2023, 8:50:33 PM
+Compilation started at 12/4/2023, 8:51:11 PM
+Compilation finished at 12/4/2023, 8:51:12 PM
+Compilation started at 12/4/2023, 8:51:40 PM
+Compilation finished at 12/4/2023, 8:51:40 PM
